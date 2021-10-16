@@ -12,7 +12,7 @@ public class FileWrite {
 		try (FileWriter f = new FileWriter(dir, true);
 				BufferedWriter b = new BufferedWriter(f);
 				PrintWriter p = new PrintWriter(b);) {
-			p.println("Gaura/pass3");
+			p.println("Bishal/12345");
 		} catch (IOException i) {
 			i.printStackTrace();
 		}
